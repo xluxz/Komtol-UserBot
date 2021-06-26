@@ -9,7 +9,7 @@ RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/vckyou/Komtol-UserBot/Geez-UserBot/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/xluxz/Komtol-UserBot/Geez-UserBot/requirements.txt
 
 EXPOSE 80 443
 
